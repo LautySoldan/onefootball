@@ -1,0 +1,41 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Cabin', sans-serif;
+	background: url(cancha1.jpg) no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+
+	}
+	.tittle{
+		border: 5px solid #BCBBBB;
+		padding: 20px;
+		display: inline-block;
+		color: #FFFFFF;
+		
+	}
+	.buffer{
+		height: 3em;
+	}
+
+	.options{
+		color: #FFFFFF;
+		text-decoration: underline;
+	}
+
+	.images{
+		width: 25em;
+		height: 35em;
+		border-radius: 10px;
+		align-items: baseline;
+	}
+	.button{
+		background-color: #800012;
+		border-color: #800012;
+		text-transform: uppercase;
+		border-radius: 2em; 
+	}
+	.button:hover{
+		background-color: #912030;
+		border-color: #912030;
+	}
